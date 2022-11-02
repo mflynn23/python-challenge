@@ -2,8 +2,8 @@
 import csv
 import os 
 
-#declaring csv path
-csvpath = os.path.join('budget_data.csv') 
+#declare csv path
+csvpath = os.path.join('..', 'PyBank', 'Resources', 'budget_data.csv') #/Users/maiflynn/Desktop/Penn Data BC/HW/python-challenge/PyBank/Resources/budget_data.csv
 
 with open (csvpath) as csvfile:
 
